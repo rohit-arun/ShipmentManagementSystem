@@ -1,0 +1,18 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #546b8fb7;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    background-color: #3b5277;
+    color: #edededef;
+    padding: 5px 0px;
+}

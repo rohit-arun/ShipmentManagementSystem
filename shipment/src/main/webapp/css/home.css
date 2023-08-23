@@ -1,0 +1,40 @@
+h2 {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    background-color: #edededef;
+    color: #3b5277;
+    margin: 0px 0px 35px 0px;
+    padding: 10px 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 24px;
+    font-weight: bold;
+    width: 45vw;
+    height: 30vh;
+    margin: 0px;
+    background-color: #edededef;
+    color: #264f97d3;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s, font-size 0.2s;
+}
+
+button:hover {
+    font-size: 26px;
+    background-color: #3b5277;
+    color: #edededef;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

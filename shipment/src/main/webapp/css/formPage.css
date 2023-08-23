@@ -1,0 +1,93 @@
+h2 {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    background-color: #edededef;
+    color: #3b5277;
+    margin: 0px 0px 50px 0px;
+    padding: 10px 0px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #3b5277;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+    color: #edededef;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    padding: 8px;
+    border: 1px #ccc;
+    border-radius: 5px;
+    background-color: #edededef;
+}
+
+select[id="status"] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 8px;
+    border: 1px #ccc;
+    border-radius: 5px;
+    background-color: #edededef;
+}
+
+select[id="status"]:hover {
+    cursor: pointer;
+}
+
+input[type="datetime-local"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+    padding: 15px 40px;
+    background-color: #3b5277;
+    color: #edededef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button {
+    width: 27vw;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background-color: #edededef;
+    color: #3b5277;
+    transform: scale(1.05);
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
