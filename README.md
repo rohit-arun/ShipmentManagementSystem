@@ -1,2 +1,2 @@
 # ShipmentManagementSystem
-A simple web application to manage shipment records that uses a REST API built with Spring Boot
+A simple web application built with Spring Boot to manage shipment records using REST APIs.
