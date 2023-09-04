@@ -16,6 +16,25 @@ p {
     color: #edededef;
 }
 
+button {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+    padding: 15px 40px;
+    background-color: #3b5277;
+    color: #edededef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #edededef;
+    color: #3b5277;
+    transform: scale(1.05);
+}
+
 a {
     text-decoration: none;
     color: inherit;
