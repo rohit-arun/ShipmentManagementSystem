@@ -12,7 +12,12 @@
 
     <body>
         <h2>ERROR PAGE</h2>
-        <p>${errorMessage}</p>
+        <p>Sorry, it seems there was an unidentified error. We're working on figuring it out!</p>
+        <div>
+            <a href="/home">
+                <button>GO BACK</button>
+            </a>
+        </div>
     </body>
 
 </html>
